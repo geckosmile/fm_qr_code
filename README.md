@@ -18,7 +18,7 @@ This is a solution to the QR code component challenge on [Frontend Mentor](https
 
 ### Screenshot
 
- - Desktop - (./assets/screenshots/qr_code_desktop.png)
+ - ![Desktop](https://github.com/geckosmile/fm_qr_code/blob/main/src/assets/screenshots/qr_code_desktop.png)
 
 
 ### Links

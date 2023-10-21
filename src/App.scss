@@ -1,0 +1,67 @@
+@import 'styles/fonts/fonts';
+@import 'styles/colors';
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: $light-grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  .qr-wrapper {
+    width: 16rem;
+    height: 28rem;
+    padding: 12px;
+    background-color: $white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    .qr-image {
+      width: 16rem;
+      height: 16rem;
+      background-position: center;
+      background-size: cover;
+      img{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border-radius: .5rem;
+      }
+    }
+    .text {
+      text-align: center;
+      padding: 8px;
+      h3 {
+        font-family: 'OutfitBold';
+        color: $dark-blue;
+        margin: 1rem 0;
+      }
+      p {
+        font-family: 'OutfitRegular';
+        color: $graylish-blue;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .App {
+    .qr-wrapper{
+      width: 32rem;
+      height: 16rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .qr-image {
+        margin-right: 1rem;
+      }
+      .text {
+        width: 16rem;
+        text-align: left;
+      }
+    }
+  }
+}

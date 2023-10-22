@@ -18,11 +18,15 @@ This is a solution to the QR code component challenge on [Frontend Mentor](https
 
 ### Screenshot
 
- - ![Desktop](https://github.com/geckosmile/fm_qr_code/blob/main/src/assets/screenshots/qr_code_desktop.png)
+![Desktop](https://github.com/geckosmile/fm_qr_code/blob/main/src/assets/screenshots/qr_code_desktop.png)
 
+- Mobile - (https://github.com/geckosmile/fm_qr_code/blob/main/src/assets/screenshots/qr_code_mobile1.png)
+- Mobile rotated - (https://github.com/geckosmile/fm_qr_code/blob/main/src/assets/screenshots/qr-code_mobile2.png)
 
 ### Links
 
+- [Solution](https://github.com/geckosmile/fm_qr_code)
+- [Live](https://fm-qr-code-coral.vercel.app/)
 
 ## My Process
 
